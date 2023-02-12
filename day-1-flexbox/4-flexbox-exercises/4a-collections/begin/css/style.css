@@ -44,6 +44,46 @@ section h2 {
     font-size: 2.5rem;
 }
 
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 0.5%;
+}
+
+figure {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 5px solid var(--color2);
+  border-radius: 3px;
+  position: relative;
+}
+
+figcaption{
+  position: absolute;
+  bottom: 0px;
+  color: black;
+  background-color: white;
+  width: 100%;
+  opacity: 0.7;
+}
+
+figcaption a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+li {
+  flex-basis: 33%;
+}
 
 /* Initial mobile layout: a series of images stacked on top of each other with the figure caption over the image. */
 
